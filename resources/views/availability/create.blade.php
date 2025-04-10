@@ -31,7 +31,8 @@
 
         <div class="form-group">
             <label>Date</label>
-            <input type="date" name="date" class="form-control" required>
+            <input type="date" min="{{ \Carbon\Carbon::now()->toDateString() }}" name="date" class="form-control"
+                required>
         </div>
 
         <div class="form-group">
