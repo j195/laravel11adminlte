@@ -14,6 +14,7 @@ MySQL version: 8.0.31
 2. Setup the Database
    -> please create the database and with that same name put that in env file and credentials
    -> then run the command php artisan migrate
+   -> and stored my database in database folder of the laravel app.
 
 3. Admin credentials
    -> Email: admin@example.com Password: password
